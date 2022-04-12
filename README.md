@@ -1,4 +1,4 @@
-# termux-pacman
+# Main page
 Welcome to the official website of the termux-pacman organization. This organization maintains the pacman package manager and its services for termux.  
 
 ## List of services:
