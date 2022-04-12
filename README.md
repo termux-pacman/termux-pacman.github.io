@@ -1,6 +1,7 @@
 # termux-pacman
 Welcome to the official website of the termux-pacman organization. This organization maintains the pacman package manager and its services for termux.  
-**Main Links:**
+
+## Main Links:
 - [groups](/groups)
 
 
