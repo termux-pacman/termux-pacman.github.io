@@ -24,4 +24,4 @@ Server = https://s3.amazonaws.com/termux-root.pacman/$arch
 Packages that need root - [_repo_](https://github.com/termux-pacman/termux-root-packages)
 
 ## Main Links:
-- [groups](/groups)
+- [Groups](/groups)
