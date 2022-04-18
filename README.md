@@ -25,3 +25,4 @@ Packages that need root - [_repo_](https://github.com/termux-pacman/termux-root-
 
 ## Main Links:
 - [Groups](/groups)
+- [News](/news)
