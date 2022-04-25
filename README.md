@@ -15,7 +15,7 @@ Basic packages - [_repo_](https://github.com/termux-pacman/termux-packages)
 Server = https://s3.amazonaws.com/termux-x11.pacman/$arch
 ```
 Graphics packages - [_repo_](https://github.com/termux-desktop/x11-packages)
-  
+
 ### [root](https://termux-pacman.github.io/list.html?bucket=https://s3.amazonaws.com/termux-root.pacman)
 ```bash
 [root]
@@ -26,3 +26,4 @@ Packages that need root - [_repo_](https://github.com/termux-pacman/termux-root-
 ## Main Links:
 - [Groups](/groups)
 - [News](/news)
+- [Donate](/donate)
