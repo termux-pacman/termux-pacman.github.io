@@ -2,6 +2,7 @@
 Here is a list of official pacman package services.
 
 ## Service s3.amazonaws.com/termux-*.pacman
+
 repo name | link | architecture support
 --- | --- | ---
 main | https://s3.amazonaws.com/termux-main.pacman | all
