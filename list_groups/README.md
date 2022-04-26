@@ -1,4 +1,4 @@
-# Termux package groups
+# List of package groups
 
 name | description | service
 --- | --- | ---

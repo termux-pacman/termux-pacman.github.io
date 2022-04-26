@@ -1,7 +1,7 @@
 # Main page
 Welcome to the official website of the termux-pacman organization. This organization maintains the pacman package manager and its services for termux.  
 
-## List of services:
+## Basic Services:
 ### [main](https://termux-pacman.github.io/list.html?bucket=https://s3.amazonaws.com/termux-main.pacman)
 ```bash
 [main]
@@ -24,6 +24,7 @@ Server = https://s3.amazonaws.com/termux-root.pacman/$arch
 Packages that need root.
 
 ## Main Links:
-- [Groups](/groups)
+- [Services](/list_services)
+- [Groups](/list_groups)
 - [News](/news)
 - [Donate](/donate)
