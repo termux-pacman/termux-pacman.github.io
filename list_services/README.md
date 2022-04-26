@@ -21,7 +21,7 @@ Server = https://s3.amazonaws.com/termux-x11.pacman/$arch
 Server = https://s3.amazonaws.com/termux-root.pacman/$arch
 ```
 **Infonormation:**  
-- general structure: `s3.amazonaws.com/termux-*.pacman/$arch`
+- [package repository](https://github.com/termux-pacman/termux-packages)
 - android version support: 7+
 - storage: AWS bucket S3
 - the db update happens on: GitHub actions
