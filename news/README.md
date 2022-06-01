@@ -3,3 +3,4 @@ Here are all the news links that are related to the organization and projects.
 
 ## List:
 - [The concept of monorepo in termux-pacman](1)
+- [Bootstrap generation based on pacman](2)
