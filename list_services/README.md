@@ -24,6 +24,5 @@ Server = https://s3.amazonaws.com/termux-root.pacman/$arch
 - [package repository](https://github.com/termux-pacman/termux-packages)
 - android version support: 7+
 - storage: AWS bucket S3
-- the db update happens on: GitHub actions
 - supports: [@termux-pacman](https://github.com/termux-pacman)
 - by: [@Maxython](https://github.com/Maxython)
