@@ -1,24 +1,24 @@
 # List of package services
 Here is a list of official pacman package services.
 
-## Service s3.amazonaws.com/termux-*.pacman
+## Service [termux-pacman.us](https://s3.amazonaws.com/termux-pacman.us/index.html)
 
 repo name | link | architecture support
 --- | --- | ---
-main | https://s3.amazonaws.com/termux-main.pacman | all
-x11 | https://s3.amazonaws.com/termux-x11.pacman | all
-root | https://s3.amazonaws.com/termux-root.pacman | all
+main | https://s3.amazonaws.com/termux-pacman.us/main | all
+x11 | https://s3.amazonaws.com/termux-pacman.us/x11 | all
+root | https://s3.amazonaws.com/termux-pacman.us/root | all
 
 **Connection code**  
 ```
 [main]
-Server = https://s3.amazonaws.com/termux-main.pacman/$arch
+Server = https://s3.amazonaws.com/termux-pacman.us/main/$arch
 
 [x11]
-Server = https://s3.amazonaws.com/termux-x11.pacman/$arch
+Server = https://s3.amazonaws.com/termux-pacman.us/x11/$arch
 
 [root]
-Server = https://s3.amazonaws.com/termux-root.pacman/$arch
+Server = https://s3.amazonaws.com/termux-pacman.us/root/$arch
 ```
 **Infonormation:**  
 - android version support: 7+

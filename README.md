@@ -1,25 +1,25 @@
 # Main page
 Welcome to the official website of the termux-pacman organization. This organization maintains the pacman package manager and its services for termux.  
 
-## Basic Services:
-### [main](https://s3.amazonaws.com/termux-main.pacman/index.html)
+## Basic Repos:
+### main
 ```bash
 [main]
-Server = https://s3.amazonaws.com/termux-main.pacman/$arch
+Server = https://s3.amazonaws.com/termux-pacman.us/main/$arch
 ```
 Basic packages.
 
-### [x11](https://s3.amazonaws.com/termux-x11.pacman/index.html)
+### x11
 ```bash
 [x11]
-Server = https://s3.amazonaws.com/termux-x11.pacman/$arch
+Server = https://s3.amazonaws.com/termux-pacman.us/x11/$arch
 ```
 Graphics packages.
 
-### [root](https://s3.amazonaws.com/termux-root.pacman/index.html)
+### root
 ```bash
 [root]
-Server = https://s3.amazonaws.com/termux-root.pacman/$arch
+Server = https://s3.amazonaws.com/termux-pacman.us/root/$arch
 ```
 Packages that need root.
 
