@@ -8,6 +8,7 @@ repo name | link | architecture support
 main | https://s3.amazonaws.com/termux-pacman.us/main | all
 x11 | https://s3.amazonaws.com/termux-pacman.us/x11 | all
 root | https://s3.amazonaws.com/termux-pacman.us/root | all
+tur | https://s3.amazonaws.com/termux-pacman.us/tur | all
 
 **Connection code**  
 ```
@@ -19,6 +20,9 @@ Server = https://s3.amazonaws.com/termux-pacman.us/x11/$arch
 
 [root]
 Server = https://s3.amazonaws.com/termux-pacman.us/root/$arch
+
+[tur]
+Server = https://s3.amazonaws.com/termux-pacman.us/tur/$arch
 ```
 **Infonormation:**  
 - android version support: 7+

@@ -23,8 +23,14 @@ Server = https://s3.amazonaws.com/termux-pacman.us/root/$arch
 ```
 Packages that need root.
 
+### tur
+```bash
+[tur]
+Server = https://s3.amazonaws.com/termux-pacman.us/tur/$arch
+```
+Termux user repository.
+
 ## Main Links:
 - [Services](/list_services)
 - [Groups](/list_groups)
-- [News](/news)
 - [Donate](/donate)
