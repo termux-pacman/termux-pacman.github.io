@@ -1,5 +1,5 @@
 # Donate
-Donate will help pay for the services we use for our project. Shown here is a list of contributors to the termux-pacman organization and ways to donate to them.
+Donate will help pay for the services we use for our project and improve it. Shown here is a list of contributors to the termux-pacman organization and ways to donate to them.
 
 ## List of developers:
  - [@Maxython](https://github.com/Maxython) - the main developer in the organization, maintains the compilation of the packages and maintains the pacman package service. Information on how to donate is located at [maxython.pw](https://maxython.pw).
