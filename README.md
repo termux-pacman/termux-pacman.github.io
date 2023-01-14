@@ -5,35 +5,35 @@ Welcome to the official website of the termux-pacman organization. This organiza
 ### main
 ```bash
 [main]
-Server = https://s3.amazonaws.com/termux-pacman.us/main/$arch
+Server = https://service.termux-pacman.dev/main/$arch
 ```
 Basic packages.
 
 ### x11
 ```bash
 [x11]
-Server = https://s3.amazonaws.com/termux-pacman.us/x11/$arch
+Server = https://service.termux-pacman.dev/x11/$arch
 ```
 Graphics packages.
 
 ### root
 ```bash
 [root]
-Server = https://s3.amazonaws.com/termux-pacman.us/root/$arch
+Server = https://service.termux-pacman.dev/root/$arch
 ```
 Packages that need root.
 
 ### tur
 ```bash
 [tur]
-Server = https://s3.amazonaws.com/termux-pacman.us/tur/$arch
+Server = https://service.termux-pacman.dev/tur/$arch
 ```
 Termux user repository.
 
 ### tur-continuous
 ```bash
 [tur-continuous]
-Server = https://s3.amazonaws.com/termux-pacman.us/tur-continuous/$arch
+Server = https://service.termux-pacman.dev/tur-continuous/$arch
 ```
 Addition to tur.
 

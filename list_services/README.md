@@ -1,32 +1,32 @@
 # List of package services
 Here is a list of official pacman package services.
 
-## Service [termux-pacman.us](https://s3.amazonaws.com/termux-pacman.us/index.html)
+## Service [service.termux-pacman.dev](https://service.termux-pacman.dev/)
 
 repo name | link | architecture support
 --- | --- | ---
-main | https://s3.amazonaws.com/termux-pacman.us/main | all
-x11 | https://s3.amazonaws.com/termux-pacman.us/x11 | all
-root | https://s3.amazonaws.com/termux-pacman.us/root | all
-tur | https://s3.amazonaws.com/termux-pacman.us/tur | all
-tur-continuous | https://s3.amazonaws.com/termux-pacman.us/tur-continuous | all
+main | https://service.termux-pacman.dev/main | all
+x11 | https://service.termux-pacman.dev/x11 | all
+root | https://service.termux-pacman.dev/root | all
+tur | https://service.termux-pacman.dev/tur | all
+tur-continuous | https://service.termux-pacman.dev/tur-continuous | all
 
 **Connection code**  
 ```
 [main]
-Server = https://s3.amazonaws.com/termux-pacman.us/main/$arch
+Server = https://service.termux-pacman.dev/main/$arch
 
 [x11]
-Server = https://s3.amazonaws.com/termux-pacman.us/x11/$arch
+Server = https://service.termux-pacman.dev/x11/$arch
 
 [root]
-Server = https://s3.amazonaws.com/termux-pacman.us/root/$arch
+Server = https://service.termux-pacman.dev/root/$arch
 
 [tur]
-Server = https://s3.amazonaws.com/termux-pacman.us/tur/$arch
+Server = https://service.termux-pacman.dev/tur/$arch
 
 [tur-continuous]
-Server = https://s3.amazonaws.com/termux-pacman.us/tur-continuous/$arch
+Server = https://service.termux-pacman.dev/tur-continuous/$arch
 ```
 **Infonormation:**  
 - android version support: 7+
