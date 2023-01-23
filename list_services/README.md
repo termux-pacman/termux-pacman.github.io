@@ -10,6 +10,7 @@ x11 | https://service.termux-pacman.dev/x11 | all
 root | https://service.termux-pacman.dev/root | all
 tur | https://service.termux-pacman.dev/tur | all
 tur-continuous | https://service.termux-pacman.dev/tur-continuous | all
+tur-multilib | https://service.termux-pacman.dev/tur-multilib | all
 
 **Connection code**  
 ```
@@ -27,6 +28,9 @@ Server = https://service.termux-pacman.dev/tur/$arch
 
 [tur-continuous]
 Server = https://service.termux-pacman.dev/tur-continuous/$arch
+
+[tur-multilib]
+Server = https://service.termux-pacman.dev/tur-multilib/$arch
 ```
 **Infonormation:**  
 - android version support: 7+

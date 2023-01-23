@@ -30,13 +30,6 @@ Server = https://service.termux-pacman.dev/tur/$arch
 ```
 Termux user repository.
 
-### tur-continuous
-```bash
-[tur-continuous]
-Server = https://service.termux-pacman.dev/tur-continuous/$arch
-```
-Addition to tur.
-
 ## Main Links:
 - [Services](/list_services)
 - [Groups](/list_groups)
