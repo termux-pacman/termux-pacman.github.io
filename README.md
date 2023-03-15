@@ -33,4 +33,4 @@ Termux user repository.
 ## Main Links:
 - [Services](/list_services)
 - [Groups](/list_groups)
-<!--- - [Donate](/donate) -->
+- [Donate](/donate)
