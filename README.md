@@ -3,30 +3,46 @@ Welcome to the official website of the **Termux Pacman** organization. **Termux 
 
 ## Basic Repos:
 ### main
-```bash
+<!--```bash
 [main]
 Server = https://service.termux-pacman.dev/main/$arch
+```-->
+```bash
+[main]
+Server = https://s3.amazonaws.com/termux-pacman.us/main/$arch
 ```
 Basic packages.
 
 ### x11
-```bash
+<!--```bash
 [x11]
 Server = https://service.termux-pacman.dev/x11/$arch
+```-->
+```bash
+[x11]
+Server = https://s3.amazonaws.com/termux-pacman.us/x11/$arch
 ```
 Graphics packages.
 
 ### root
-```bash
+<!--```bash
 [root]
 Server = https://service.termux-pacman.dev/root/$arch
+```-->
+```bash
+[root]
+Server = https://s3.amazonaws.com/termux-pacman.us/root/$arch
 ```
 Packages that need root.
 
 ### tur
-```bash
+<!--```bash
 [tur]
 Server = https://service.termux-pacman.dev/tur/$arch
+```-->
+```bash
+[tur]
+Server = https://s3.amazonaws.com/termux-pacman.us/tur/$arch
 ```
 Termux user repository.
 
