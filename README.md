@@ -1,5 +1,5 @@
 # Main page
-Welcome to the official website of the **Termux Pacman** organization. **Termux Pacman** is the organization that maintains and develops pacman technologies in Termux.
+Welcome to the official website of the **Termux Pacman** organization. **Termux Pacman** is an organization dedicated to maintaining Termux packages in the pacman format, developing personal packages and tools to work with the pacman package manager.
 
 ## Basic Repos:
 ### main
