@@ -50,3 +50,4 @@ Termux user repository.
 - [Services](/list_services)
 - [Groups](/list_groups)
 - [Donate](/donate)
+- [Issues](/issues)
