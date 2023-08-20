@@ -5,37 +5,13 @@ Here is a list of official pacman package services.
 
 repo name | link | architecture support
 --- | --- | ---
-main | https://service.termux-pacman.dev/main | all
-x11 | https://service.termux-pacman.dev/x11 | all
-root | https://service.termux-pacman.dev/root | all
-tur | https://service.termux-pacman.dev/tur | all
-tur-continuous | https://service.termux-pacman.dev/tur-continuous | all
-tur-multilib | https://service.termux-pacman.dev/tur-multilib | all
-gpkg-dev | https://service.termux-pacman.dev/gpkg-dev | all
-
-**Connection code**
-```bash
-[main]
-Server = https://service.termux-pacman.dev/main/$arch
-
-[x11]
-Server = https://service.termux-pacman.dev/x11/$arch
-
-[root]
-Server = https://service.termux-pacman.dev/root/$arch
-
-[tur]
-Server = https://service.termux-pacman.dev/tur/$arch
-
-[tur-continuous]
-Server = https://service.termux-pacman.dev/tur-continuous/$arch
-
-[tur-multilib]
-Server = https://service.termux-pacman.dev/tur-multilib/$arch
-
-[gpkg-dev]
-Server = https://service.termux-pacman.dev/gpkg-dev/$arch
-```
+main | [service.termux-pacman.dev/main](https://service.termux-pacman.dev/main) | all
+x11 | [service.termux-pacman.dev/x11](https://service.termux-pacman.dev/x11) | all
+root | [service.termux-pacman.dev/root](https://service.termux-pacman.dev/root) | all
+tur | [service.termux-pacman.dev/tur](https://service.termux-pacman.dev/tur) | all
+tur-continuous | [service.termux-pacman.dev/tur-continuous](https://service.termux-pacman.dev/tur-continuous) | all
+tur-multilib | [service.termux-pacman.dev/tur-multilib](https://service.termux-pacman.dev/tur-multilib) | all
+gpkg-dev | [service.termux-pacman.dev/gpkg-dev](https://service.termux-pacman.dev/gpkg-dev) | all
 
 **Infonormation:**
 - android version support: 7+

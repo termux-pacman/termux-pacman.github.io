@@ -35,3 +35,4 @@ Termux user repository.
 - [Groups](/list_groups)
 - [Donate](/donate)
 - [Issues](/issues)
+- [Security](/security)
