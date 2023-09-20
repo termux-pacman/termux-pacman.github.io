@@ -30,6 +30,13 @@ Server = https://service.termux-pacman.dev/tur/$arch
 ```
 Termux user repository.
 
+### gpkg
+```bash
+[gpkg]
+Server = https://service.termux-pacman.dev/gpkg/$arch
+```
+Glibc packages for Termux.
+
 ## Main Links:
 - [Services](/list_services)
 - [Groups](/list_groups)
