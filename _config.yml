@@ -1,3 +1,4 @@
-theme: minima
 title: Termux Pacman
-description: Support for pacman packages in termux
+description: >
+  Official website of the Termux-Pacman organization.
+email: pacman@termux.dev

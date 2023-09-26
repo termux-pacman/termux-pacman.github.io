@@ -1,4 +1,9 @@
-# List of package services
+---
+layout: page
+title: List of package services
+permalink: /services/
+---
+
 Here is a list of official pacman package services.
 
 ## Service [service.termux-pacman.dev](https://service.termux-pacman.dev/)

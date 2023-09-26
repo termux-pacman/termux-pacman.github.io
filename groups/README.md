@@ -1,4 +1,8 @@
-# List of package groups
+---
+layout: page
+title: List of package groups
+permalink: /groups/
+---
 
 name | description | service
 --- | --- | ---
