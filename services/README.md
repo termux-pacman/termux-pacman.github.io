@@ -6,7 +6,7 @@ permalink: /services/
 
 Here is a list of official pacman package services.
 
-## Service [service.termux-pacman.dev](https://service.termux-pacman.dev/)
+### Service [service.termux-pacman.dev](https://service.termux-pacman.dev/)
 
 repo name | service link
 --- | --- | ---

@@ -4,12 +4,12 @@ title: Security Policy
 permalink: /security/
 ---
 
-## Supported Versions
+### Supported Versions
 
 The Termux-Pacman organization provides packages that work in [Termux](https://termux.dev/en/), as well as signatures for packages that are built with the latest version of `gpg`.  
 **NOTE:** not all packages are signed in the `main`, `x11` and `root` repositories.
 
-## Reporting a Vulnerability
+### Reporting a Vulnerability
 
 The Termux-Pacman organization deals with vulnerability issues in the following cases:
  - If a vulnerability has been found in our services. 
