@@ -16,8 +16,8 @@ repo name | service link
 [tur](https://github.com/termux-pacman/tur/tree/master/tur) | [service.termux-pacman.dev/tur](https://service.termux-pacman.dev/tur)
 [tur-continuous](https://github.com/termux-pacman/tur/tree/master/tur-continuous) | [service.termux-pacman.dev/tur-continuous](https://service.termux-pacman.dev/tur-continuous)
 [tur-multilib](https://github.com/termux-pacman/tur/tree/master/tur-multilib) | [service.termux-pacman.dev/tur-multilib](https://service.termux-pacman.dev/tur-multilib)
-[gpkg-dev](https://github.com/termux-pacman/glibc-packages/tree/main/gpkg-dev) | [service.termux-pacman.dev/gpkg-dev](https://service.termux-pacman.dev/gpkg-dev)
 [gpkg](https://github.com/termux-pacman/glibc-packages/tree/main/gpkg) | [service.termux-pacman.dev/gpkg](https://service.termux-pacman.dev/gpkg)
+[cgct](https://github.com/termux-pacman/glibc-packages/tree/main/cgct) | [service.termux-pacman.dev/cgct](https://service.termux-pacman.dev/cgct)
 
 **Infonormation:**
 - android version support: 7+
