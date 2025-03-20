@@ -1,6 +1,6 @@
 ---
 layout: page
-title: List of package groups
+title: Groups
 permalink: /groups/
 ---
 

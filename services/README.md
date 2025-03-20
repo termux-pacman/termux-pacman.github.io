@@ -1,26 +1,27 @@
 ---
 layout: page
-title: List of package services
+title: Services and mirrors
 permalink: /services/
 ---
 
-Here is a list of official pacman package services.
+This is a list of services and official mirrors for the pacman package manager in Termux.
 
-### Service [service.termux-pacman.dev](https://service.termux-pacman.dev/)
+### Service by [Termux-Pacman](https://github.com/termux-pacman)
+- Link: [service.termux-pacman.dev](https://service.termux-pacman.dev)
+- Rsync address: [sync.termux-pacman.dev/termux-pacman](rsync://sync.termux-pacman.dev/termux-pacman/)
+- Location: United States 🇺🇸
+- IPv4/IPv6 support: both
+- Pacman configuration code for connection:
+  ```sh
+  Server = https://service.termux-pacman.dev/$repo/$arch  
+  ```
 
-repo name | service link
---- | --- | ---
-[main](https://github.com/termux-pacman/termux-packages/tree/master/packages) | [service.termux-pacman.dev/main](https://service.termux-pacman.dev/main)
-[x11](https://github.com/termux-pacman/termux-packages/tree/master/x11-packages) | [service.termux-pacman.dev/x11](https://service.termux-pacman.dev/x11)
-[root](https://github.com/termux-pacman/termux-packages/tree/master/root-packages) | [service.termux-pacman.dev/root](https://service.termux-pacman.dev/root)
-[tur](https://github.com/termux-pacman/tur/tree/master/tur) | [service.termux-pacman.dev/tur](https://service.termux-pacman.dev/tur)
-[tur-continuous](https://github.com/termux-pacman/tur/tree/master/tur-continuous) | [service.termux-pacman.dev/tur-continuous](https://service.termux-pacman.dev/tur-continuous)
-[tur-multilib](https://github.com/termux-pacman/tur/tree/master/tur-multilib) | [service.termux-pacman.dev/tur-multilib](https://service.termux-pacman.dev/tur-multilib)
-[gpkg](https://github.com/termux-pacman/glibc-packages/tree/main/gpkg) | [service.termux-pacman.dev/gpkg](https://service.termux-pacman.dev/gpkg)
-[cgct](https://github.com/termux-pacman/glibc-packages/tree/main/cgct) | [service.termux-pacman.dev/cgct](https://service.termux-pacman.dev/cgct)
-
-**Infonormation:**
-- android version support: 7+
-- powered by aws
-- region: US
-- supports: [@termux-pacman](https://github.com/termux-pacman)
+### Mirror by [MeowIce](https://github.com/MeowIce)
+- Link: [mirror.meowsmp.net/termux-pacman](https://mirror.meowsmp.net/termux-pacman)
+- Rsync address: [rsync.meowsmp.net/termux-pacman](rsync://rsync.meowsmp.net/termux-pacman/)
+- Location: Vietnam 🇻🇳
+- IPv4/IPv6 support: both
+- Pacman configuration code for connection:
+  ```sh
+  Server = https://mirror.meowsmp.net/termux-pacman/$repo/$arch
+  ```

@@ -32,6 +32,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   overflow-wrap: break-word;
+  font-size: 20px;
 }
 
 
@@ -39,7 +40,6 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
@@ -103,7 +103,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: bold;
 }
 
 
@@ -120,7 +120,6 @@ a {
   }
 
   &:hover {
-    color: $link-hover-color;
     text-decoration: underline;
   }
 
