@@ -4,15 +4,15 @@ title: Security Policy
 permalink: /security/
 ---
 
-### Supported Versions
+## Supported Versions
 
 The Termux-Pacman organization provides packages that work in [Termux](https://termux.dev/en/), as well as signatures for packages that are built with the latest version of `gpg`.  
 **NOTE:** not all packages are signed in the `main`, `x11` and `root` repositories.
 
-### Reporting a Vulnerability
+## Limitations
 
 The Termux-Pacman organization deals with vulnerability issues in the following cases:
- - If a vulnerability has been found in our services. 
+ - If a vulnerability has been found in our services or mirrors. 
  - If a vulnerability has been found in package signatures.
  - If a vulnerability has been found in our own package.
  - If a package has not been updated in which the vulnerability of the package is fixed.
@@ -26,6 +26,8 @@ The Termux-Pacman organization does not deal with issues of fixing the vulnerabi
  - tur-multilib
 
 **NOTE:** if a vulnerability is reported about a package that is in the *git repo mirror*, then that information will be passed on to the team that manages that repo and also to the author (or organization) of the package.
+
+## Reporting a Vulnerability
 
 To report a vulnerability, you must send an email to [pacman@termux.dev](mailto:pacman@termux.dev) with the following information:
  - Subject must begin with the text `[Reporting Vulnerability]`.

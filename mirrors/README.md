@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Services and mirrors
-permalink: /services/
+title: Mirrors
+permalink: /mirrors/
 ---
 
-This is a list of services and official mirrors for the pacman package manager in Termux.
+This is a list of official mirrors for the pacman package manager in Termux.
 
 ### Service by [Termux-Pacman](https://github.com/termux-pacman)
 - Link: [service.termux-pacman.dev](https://service.termux-pacman.dev)
