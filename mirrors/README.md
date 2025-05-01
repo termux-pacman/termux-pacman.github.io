@@ -25,3 +25,13 @@ This is a list of official mirrors for the pacman package manager in Termux.
   ```sh
   Server = https://mirror.meowsmp.net/termux-pacman/$repo/$arch
   ```
+
+### Mirror by [AG DSN](https://github.com/agdsn)
+- Link: [ftp.agdsn.de/termux-pacman](https://ftp.agdsn.de/termux-pacman)
+- Rsync address: [ftp.agdsn.de/termux-pacman](rsync://ftp.agdsn.de/termux-pacman/)
+- Location: Germany 🇩🇪
+- IPv4/IPv6 support: both
+- Pacman configuration code for connection:
+  ```sh
+  Server = https://ftp.agdsn.de/termux-pacman/$repo/$arch
+  ```
