@@ -2,6 +2,23 @@
 layout: default
 ---
 
+<link rel="preload" href="/img/example0.jpg" as="image">
+<link rel="preload" href="/img/example1.jpg" as="image">
+<link rel="preload" href="/img/example2.jpg" as="image">
+<div class="intro" id="intro-background">
+  <div class="text">
+    <h1>New experience and possibilities in Termux.</h1>
+  </div>
+</div>
+<script>
+  var intro = document.getElementById("intro-background");
+  var index = 0;
+  function changeIntro() {
+    index = (index+1)%3;
+    intro.style.backgroundImage = "url(/img/example"+index+".jpg)";
+  }
+  setInterval(changeIntro, 7000);
+</script>
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -31,4 +48,12 @@ layout: default
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
+</div>
+<div class="powered">
+  <a href="https://aws.amazon.com/what-is-cloud-computing">
+    <img src="img/aws.png" alt="Powered by AWS" width="150"/>
+  </a>
+  <a href="https://us.ovhcloud.com">
+    <img src="img/ovhcloud.png" alt="Powered by OVHcloud/US" width="150"/>
+  </a>
 </div>

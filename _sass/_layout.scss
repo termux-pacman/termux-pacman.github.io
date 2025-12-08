@@ -38,6 +38,7 @@
   background-color: $background-color;
   border: 1px solid $border-color-01;
   border-radius: 5px;
+  z-index: 2;
 
   .nav-trigger {
     display: none;
@@ -61,7 +62,7 @@
     float: right;
     width: 36px;
     height: 36px;
-    z-index: 2;
+    z-index: 3;
     cursor: pointer;
   }
 
