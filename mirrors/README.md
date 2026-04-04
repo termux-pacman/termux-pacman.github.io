@@ -35,3 +35,13 @@ This is a list of official mirrors for the pacman package manager in Termux.
   ```sh
   Server = https://ftp.agdsn.de/termux-pacman/$repo/$arch
   ```
+
+### Mirror by [Clarkson Open Source Institute](https://github.com/COSI-Lab)
+- Link: [mirror.clarkson.edu/termux-pacman](https://mirror.clarkson.edu/termux-pacman)
+- Rsync address: [mirror.clarkson.edu/termux-pacman](rsync://mirror.clarkson.edu/termux-pacman/)
+- Location: United States 🇺🇸
+- IPv4/IPv6 support: both
+- Pacman configuration code for connection:
+  ```sh
+  Server = https://mirror.clarkson.edu/termux-pacman/$repo/$arch
+  ```
