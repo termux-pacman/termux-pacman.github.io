@@ -23,6 +23,7 @@ dl, dd, ol, ul, figure {
   margin-top: -30px;
   height: 500px;
   transition: background-image 1s;
+  animation: BackgroundAnimation 20s ease-in-out infinite;
 
   @media screen and (max-width: $on-medium) {
     height: 250px;
@@ -43,6 +44,18 @@ dl, dd, ol, ul, figure {
         font-size: 1em;
       }
     }
+  }
+}
+
+@keyframes BackgroundAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
   }
 }
 
